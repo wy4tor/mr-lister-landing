@@ -733,3 +733,13 @@ main,
 .site-canvas-layer .hero-shade { opacity: .65; transition: opacity .7s ease; }
 .site-canvas-layer.is-shaded .hero-shade { opacity: 1; }
 
+
+/* Keep yellow call-to-action labels readable in interactive states. */
+.btn-primary:hover,
+.btn-primary:focus-visible,
+.btn-primary:active,
+.sticky-call:hover,
+.sticky-call:focus-visible,
+.sticky-call:active {
+  color: #171200;
+}

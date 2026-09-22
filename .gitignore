@@ -1,0 +1,7 @@
+# Original source frames remain local; the site uses the optimized WebP sequence.
+assets/frames/
+assets/mr-lister-logo.jpg
+node_modules/
+*.log
+.DS_Store
+Thumbs.db

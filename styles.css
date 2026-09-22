@@ -419,10 +419,17 @@ ul.chip-list {
 }
 .callout-strip h3 { margin: 0; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: clamp(1.5rem, 3vw, 2.6rem); text-transform: uppercase; }
 .callout-strip p { margin: 0; color: rgba(255,247,214,.75); }
+.callout-strip .btn {
+  flex: 0 0 auto;
+  max-width: 100%;
+  text-align: center;
+  white-space: nowrap;
+}
+
 
 .why-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
 }
 .why-grid article { padding: 1.25rem; }
